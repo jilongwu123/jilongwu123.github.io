@@ -53,15 +53,10 @@
     width: 96px;
     height: 96px;
     border-radius: 50%;
-    background: linear-gradient(135deg, var(--accent), #8833ff);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    object-fit: cover;
     margin: 0 auto 24px;
-    font-family: var(--font-display);
-    font-size: 36px;
-    font-weight: 900;
-    color: #fff;
+    display: block;
+    border: 2px solid var(--border);
   }
 
   h1 {
@@ -136,7 +131,7 @@
 
 <div class="container">
   <div class="card">
-    <div class="avatar">JW</div>
+    <img class="avatar" src="avatar.jpg" alt="Jason Jilong Wu">
     <h1>Jason Jilong Wu</h1>
     <div class="bio">Builder. Founder.<br>ex-Meta Super Intelligence Labs &middot; ex-Google</div>
 
